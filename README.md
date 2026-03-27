@@ -38,3 +38,7 @@ backend/
 ├── .env.example ← Safe template for GitHub
 ├── package.json
 └── tsconfig.json
+
+```
+
+```
