@@ -4,9 +4,7 @@ curl http://localhost:4000/health
 
 # Create a task
 
-curl -X POST http://localhost:4000/tasks \
- -H "Content-Type: application/json" \
- -d '{"title":"Fix login bug","priority":"high"}'
+curl -X POST http://localhost:4000/tasks 
 
 # Get all tasks
 
@@ -20,7 +18,6 @@ curl -X DELETE http://localhost:4000/tasks/1
 
 curl http://localhost:4000/tasks/summary
 
-```
 
 
 
