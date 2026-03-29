@@ -22,23 +22,5 @@ curl http://localhost:4000/tasks/summary
 
 ```
 
----
 
-## 📁 Final Folder Structure
-```
 
-backend/
-├── src/
-│ ├── types.ts ← TypeScript types
-│ ├── db.ts ← SQLite database setup
-│ ├── ai.ts ← Gemini AI integration
-│ ├── routes.ts ← All API routes
-│ └── index.ts ← Express app entry point
-├── .env ← Your real keys (DO NOT commit)
-├── .env.example ← Safe template for GitHub
-├── package.json
-└── tsconfig.json
-
-```
-
-```
